@@ -1,0 +1,10 @@
+language: python
+python:
+ - 2.7
+services:
+ - docker
+install:
+ - docker build -f Dockerfile -t idea ./
+ - docker run -d -p 8888:8888 --name idea idea
+script:
+ - docker ps
