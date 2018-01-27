@@ -3,7 +3,7 @@ MAINTAINER mrjin<me@jinfeijie.cn>
 
 WORKDIR /
 
-ENV PORT 8888
+ENV PORT 9501
 ENV USER jinfeijie.cn
 
 COPY conf/* /
